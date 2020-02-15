@@ -9,6 +9,6 @@
 
 <script>
 export default {
-  name: "About"
+  name: "Education"
 }
 </script>

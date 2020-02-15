@@ -10,10 +10,10 @@
                 </b-navbar-brand>
                 <b-navbar-nav align="center">
                     <b-nav pills vertical align="center">
-                        <b-nav-item vertical align="center" to="/" exact-active-class="active">Home</b-nav-item>
+                        <b-nav-item vertical align="center" to="/" exact-active-class="active">About Me</b-nav-item>
                     </b-nav>
                     <b-nav pills vertical align="center">
-                        <b-nav-item vertical align="center" to="/about" exact-active-class="active">About</b-nav-item>
+                        <b-nav-item vertical align="center" to="/education" exact-active-class="active">Education</b-nav-item>
                     </b-nav>
                     <b-nav pills vertical align="center">
                         <b-nav-item vertical align="center" to="/testroute1" exact-active-class="active">Test1</b-nav-item>
