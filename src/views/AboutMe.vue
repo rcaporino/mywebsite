@@ -7,7 +7,11 @@
         <b-col xs="auto" sm="auto" md="auto" lg="8">
         <h1 class="text-center text-lg-left">Rob Caporino</h1>
         <br>
-        <p>Hello! My name is Rob Caporino, I am a recent graduate from Saint Joseph's College with a bachelors in Math and Computer Science.</p>
+        <p>Hello! My name is Rob Caporino, I am a recent graduate from Saint Joseph's College with a bachelors in Math and Computer Science. I built this website as
+          a place to share my projects on.</p>
+        <p> I am currently looking for a job in the field of computer science. I have a deep passion for programming and love learning new languages,
+          tools, and frameworks. The languages I am most comfortable with are java, javascript, and python. I have always been very interested in mobile development,
+          and learning Vuejs to build this website has sparked a new found love in web development aswell.</p>
         </b-col>
       </b-row>
     </div>
@@ -15,7 +19,7 @@
 
 <script>
 export default {
-  name: "Home",
+  name: "AboutMe",
   data() {
     return {
       imageProps: {
