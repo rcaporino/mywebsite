@@ -2,8 +2,8 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import AboutMe from "../views/AboutMe.vue";
 import Education from "../views/Education.vue";
-import Test1 from "../views/Test1.vue";
-import Test2 from "../views/Test2.vue";Test1
+import ContactMe from "../views/ContactMe.vue";
+import Test2 from "../views/Test2.vue";
 
 
 Vue.use(VueRouter);
@@ -15,7 +15,7 @@ const routes = [
     component: AboutMe
   },
   {
-    path: "/education",
+    path: "/educationandskills",
     name: "Education",
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
@@ -25,9 +25,9 @@ const routes = [
     component: Education
   },
   {
-    path: "/testroute1",
-    name: "Test1",
-    component: Test1
+    path: "/contactme",
+    name: "Contact Me",
+    component: ContactMe
   },
   {
     path: "/testroute2",

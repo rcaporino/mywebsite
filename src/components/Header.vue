@@ -13,10 +13,10 @@
                         <b-nav-item vertical align="center" to="/" exact-active-class="active">About Me</b-nav-item>
                     </b-nav>
                     <b-nav pills vertical align="center">
-                        <b-nav-item vertical align="center" to="/education" exact-active-class="active">Education</b-nav-item>
+                        <b-nav-item vertical align="center" to="/educationandskills" exact-active-class="active">Education and Skills</b-nav-item>
                     </b-nav>
                     <b-nav pills vertical align="center">
-                        <b-nav-item vertical align="center" to="/testroute1" exact-active-class="active">Test1</b-nav-item>
+                        <b-nav-item vertical align="center" to="/contactme" exact-active-class="active">Contact Me</b-nav-item>
                     </b-nav>
                     <b-nav pills vertical align="center">
                         <b-nav-item vertical align="center" to="/testroute2" exact-active-class="active">Test2</b-nav-item>
