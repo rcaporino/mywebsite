@@ -1,11 +1,11 @@
 <template>
   <div>
     <!-- <app-header> </app-header> -->
-    <app-header v-bind="hideSm"></app-header>
+    <app-header v-bind="showSm"></app-header>
     <b-container>
       <b-row>
         <b-col cols="12">
-          <b-card class="mt-2 shadow-lg" bg-varient="primary">
+          <b-card class="my-2 shadow-lg" bg-varient="primary">
             <!-- <template v-slot:header>
               <app-header v-bind="showMedPlus"></app-header>
             </template> -->
@@ -25,14 +25,14 @@ import Header from './components/Header.vue';
 export default {
   data() {
     return {
-      hideSm: {
+      showSm: {
         class: "d-md-none"
       },
       showMedPlus: {
         class: "d-none d-md-block"
       },
       arrayOfPages: [
-        "/", "/about", "/testroute1", "/testroute2"
+        "/", "/education", "/contactme", "/testroute2"
       ],
       transitionName: "slide"
     }
@@ -61,7 +61,7 @@ body {
 .slide-left-leave-active,
 .slide-right-enter-active,
 .slide-right-leave-active {
-  transition-duration: 0.4s;
+  transition-duration: 0.3s;
   transition-property: height, opacity, transform;
   transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
   overflow: hidden;
