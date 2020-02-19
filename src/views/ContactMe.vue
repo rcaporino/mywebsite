@@ -22,7 +22,7 @@
 
 <script>
 export default {
-    name: "Contact Me",
+    name: "Contact-Me",
     data () {
       return {
         imageProps: {

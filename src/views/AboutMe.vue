@@ -1,6 +1,6 @@
 <template>
     <div>
-      <b-row align-h="center" class="m-4 p-md-4" cols="1" cols-md="2" align-content="center">
+      <b-row align-h="center" class="m-md-4 p-md-4" cols="1" cols-md="2" align-content="center">
         <b-col xs="auto" sm="auto" md="auto" lg="3" xl="3" class="">
         <b-img src='../assets/headshot.png' alt="Image of Rob Caporino" v-bind="imageProps" rounded="circle" class="mx-auto d-block"></b-img>
         </b-col>
@@ -32,11 +32,5 @@ export default {
 </script>
 
 <style>
-.card {
-  background-color: #f9f9fb !important;
-}
 
-.card-text{
-  color: #555555 !important;
-}
 </style>

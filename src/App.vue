@@ -32,7 +32,7 @@ export default {
         class: "d-none d-md-block"
       },
       arrayOfPages: [
-        "/", "/education", "/contactme", "/testroute2"
+        "/", "/educationandskills", "/projects", "/contactme"
       ],
       transitionName: "slide"
     }
@@ -56,6 +56,9 @@ body {
   background-color: #f6f6f6;
 }
 
+.card {
+  background-color: #f9f9fb !important;
+}
 
 .slide-left-enter-active,
 .slide-left-leave-active,
