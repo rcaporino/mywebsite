@@ -3,7 +3,7 @@ import VueRouter from "vue-router";
 import AboutMe from "../views/AboutMe.vue";
 import Education from "../views/Education.vue";
 import ContactMe from "../views/ContactMe.vue";
-import Test2 from "../views/Test2.vue";
+import Projects from "../views/Projects.vue";
 
 
 Vue.use(VueRouter);
@@ -30,9 +30,9 @@ const routes = [
     component: ContactMe
   },
   {
-    path: "/testroute2",
-    name: "Test2",
-    component: Test2
+    path: "/projects",
+    name: "Projects",
+    component: Projects
   }
 ];
 

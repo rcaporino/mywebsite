@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-row class="p-md-4 mx-4" cols="1" cols-md="2" align-content="center">
+    <b-row class="p-md-4 mx-md-4" cols="1" cols-md="2" align-content="center">
       <b-col xs="auto" sm="auto" md="auto" lg="8">
         <h1 class="text-md-left text-center">Education and Skills</h1>
         <p class="text-left">I have recently graduated from Saint Joseph's College in Patchogue, NY, with a
@@ -9,7 +9,7 @@
       </b-col>
     </b-row>
 
-    <b-row class="px-md-4 pm-md-4 mx-4 mb-4 " cols="1" cols-md="2" align-content="center" v-bind="showSm">
+    <b-row class="px-md-4 pm-md-4 mx-md-4 mb-4 " cols="1" cols-md="2" align-content="center" v-bind="showSm">
       <b-col>
         <ul>
           <li v-for="(course,index) in coursesCompleted" :key="index">{{course}}</li>
@@ -17,7 +17,7 @@
       </b-col>
     </b-row>
 
-    <b-row class="px-md-4 pm-md-4 mx-4 mb-4 " cols="1" cols-md="2" align-content="center" v-bind="showMedPlus">
+    <b-row class="px-md-4 pm-md-4 mx-md-4 mb-4 " cols="1" cols-md="2" align-content="center" v-bind="showMedPlus">
       <b-col lg="10">
         <h4>Relevent Courses Completed: </h4>
         <br>
@@ -36,7 +36,7 @@
       </b-col>
     </b-row>
 
-    <b-row class="px-md-4 mx-4" cols="1" cols-md="2" align-content="center">
+    <b-row class="px-md-4 mx-md-4" cols="1" cols-md="2" align-content="center">
       <b-col lg="10">
         <h4>Skill Set</h4>
         <p>The languages I have used are: </p>
