@@ -39,9 +39,7 @@ export default {
         allProjects: [
           {title: "RobCaporino.com", description: "View the source code for this single page website built with Vuejs here.", 
             image: require("../assets/R.Caporino_logo_thumbnail.png"), alt:"Rob Caporino Logo",
-            link: "https://github.com/rcaporino/mywebsite"},
-
-          {title: "test Card", description: "test", image: require("../assets/linkedin.svg")}
+            link: "https://github.com/rcaporino/mywebsite"}
         ]
       }
     }

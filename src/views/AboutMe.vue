@@ -14,7 +14,7 @@
           tools, and frameworks. Among the languages I have learned, I am most comfortable with: Java, JavaScript, and Python. I have always been very interested in mobile development,
           and using Vuejs to build this website has sparked a new found love for web development.</p>
         <br>
-        <b-button class="neumorphism myBtn" href="../documents/Robert_A_Caporino_Resume.pdf">View Resume</b-button>
+        <b-button class="neumorphism myBtn" href="./documents/Robert_A_Caporino_Resume.pdf" target="_blank">View Resume</b-button>
         </b-col>
       </b-row>
     </div>
