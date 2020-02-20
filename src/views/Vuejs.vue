@@ -41,6 +41,7 @@
                 display what you are filtering for.
             </p>
             <p>Filter for fruits: </p>
+            <!-- filterText and filteredFruits are part of the vueDemoMixin -->
             <input type="text" v-model="filterText">
             <ul>
                 <li v-for="(item, index) in filteredFruits" :key=index>{{ item }}</li>
