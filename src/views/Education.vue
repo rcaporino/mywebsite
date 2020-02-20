@@ -12,6 +12,8 @@
 
     <b-row class="px-md-4 pm-md-4 mx-md-4 mb-4 " cols="1" cols-md="2" align-content="center" v-bind="showSm">
       <b-col>
+        <h4>Relevent Courses Completed: </h4>
+        <br>
         <ul>
           <li v-for="(course,index) in coursesCompleted" :key="index">{{course}}</li>
         </ul>
