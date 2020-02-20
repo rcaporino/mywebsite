@@ -1,8 +1,9 @@
 <template>
   <div>
     <b-row class="p-md-4 mx-md-4" cols="1" cols-md="2" align-content="center">
-      <b-col xs="auto" sm="auto" md="auto" lg="8">
+      <b-col xs="auto" sm="auto" md="12" lg="12">
         <h1 class="text-md-left text-center">Education and Skills</h1>
+        <hr>
         <p class="text-left">I have recently graduated from Saint Joseph's College in Patchogue, NY, with a
         <b>Bachelors in Math and Computer Science</b>.
         </p>
