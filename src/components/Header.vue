@@ -1,6 +1,6 @@
 <template>
-  <div class="mt-3 m-0">
-        <b-navbar toggleable="md" type="dark" class="nav-header">
+  <div class="py-1">
+        <b-navbar toggleable="md" type="light" class="nav-header neumorphism">
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
             <b-collapse id="nav-collapse" is-nav>
@@ -20,6 +20,9 @@
                     </b-nav>
                     <b-nav pills vertical align="center">
                         <b-nav-item vertical align="center" to="/contactme" exact-active-class="active">Contact Me</b-nav-item>
+                    </b-nav>
+                    <b-nav pills vertical align="center">
+                        <b-nav-item vertical align="center" to="/vuejs" exact-active-class="active">Vuejs</b-nav-item>
                     </b-nav>
                 </b-navbar-nav>
             </b-collapse>
@@ -41,12 +44,13 @@ export default {
 
 <style>
 .nav-header{
-    background-color: #8092ac;
+    background-color: #8092ac !important;
 }
 
 .active {
     /* background-color: #f59e5d !important; */
     background-color: #405b82 !important;
+    color: #e1e1e1 !important;
 }
 
 .nav-pills:hover {

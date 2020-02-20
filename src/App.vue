@@ -5,7 +5,7 @@
     <b-container>
       <b-row>
         <b-col cols="12">
-          <b-card class="my-2 shadow-lg" bg-varient="primary">
+          <b-card class="my-2 neumorphism" bg-varient="primary">
             <!-- <template v-slot:header>
               <app-header v-bind="showMedPlus"></app-header>
             </template> -->
@@ -32,7 +32,7 @@ export default {
         class: "d-none d-md-block"
       },
       arrayOfPages: [
-        "/", "/educationandskills", "/projects", "/contactme"
+        "/", "/educationandskills", "/projects", "/contactme", "/vuejs"
       ],
       transitionName: "slide"
     }
@@ -53,11 +53,27 @@ export default {
 
 <style>
 body {
-  background-color: #f6f6f6;
+  background-color: #efefef;
+  font-family: 'Roboto Slab', serif;
+  color: #333333;
 }
 
-.card {
-  background-color: #f9f9fb !important;
+.neumorphism {
+  background-color: #f1f1f1 !important;
+  box-shadow: 
+    -5px -5px 10px 5px rgba(255,255,255,1),
+    5px 5px 10px 1px rgba(0,0,0,0.3) !important;
+}
+
+.myBtn {
+  color: #333333 !important;
+  border: none !important;
+}
+.myBtn:hover {
+  background: #efefef !important;
+  box-shadow: 
+    -20px -20px 30px 0px rgba(255,255,255,1),
+    20px 20px 30px 1px rgba(0,0,0,0.3) !important;
 }
 
 .slide-left-enter-active,

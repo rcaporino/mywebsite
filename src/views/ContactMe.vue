@@ -1,9 +1,9 @@
 <template>
   <div>
     <b-row class="p-md-4 mx-4" cols="1" cols-md="2" align-content="center">
-      <b-col xs="auto" sm="auto" md="auto" lg="8">
+      <b-col xs="auto" sm="auto" md="12" lg="12">
         <h1 class="text-md-left text-center">Contact Details</h1>
-        <br>
+        <hr>
         <p>Feel free to contact me at: </p>
         <a href="mailto:rcaporino@gmail.com?subject=Business Inquiry"><img src="../assets/mail.svg" v-bind="imageProps" alt="email"></a>
         <a href="mailto:rcaporino@gmail.com?subject=Business Inquiry"> rcaporino@gmail.com</a>
