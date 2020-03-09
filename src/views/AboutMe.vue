@@ -2,7 +2,7 @@
     <div>
       <b-row align-h="center" class="m-md-4 p-md-4" cols="1" cols-md="2" align-content="center">
         <b-col xs="auto" sm="auto" md="auto" lg="3" xl="3" class="">
-        <b-img src='../assets/headshot.png' alt="Image of Rob Caporino" v-bind="imageProps" rounded="circle" class="mx-auto d-block neumorphism"></b-img>
+        <b-img src='../assets/headshot.jpg' alt="Image of Rob Caporino" v-bind="imageProps" rounded="circle" class="mx-auto d-block neumorphism"></b-img>
         </b-col>
         <b-col xs="auto" sm="auto" md="auto" lg="8">
         <h1 class="text-md-left text-center">Rob Caporino</h1>
