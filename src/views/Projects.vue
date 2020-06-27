@@ -60,6 +60,13 @@ export default {
           image: require("../assets/pybuddy_preview.png"),
           alt: "Preview of PyBuddy",
           link: "https://github.com/rcaporino/py-buddy"
+        },
+        {
+          title: "Pirate Vs Spiders",
+          description: "Pirates vs Spiders is a top down 3D game made in the godot game engine. Its a bullet-hell style game that spawns waves of spiders to defeat. Survive as many waves as you can.",
+          image: require("../assets/Pirate_Vs_Spiders.png"),
+          alt: "Preview of Pirates vs Spiders",
+          link: "https://oniro.itch.io/pirate-vs-spiders"
         }
       ]
     };
